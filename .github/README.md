@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-wisdom`](https://www.npmjs.com/package/@aws-sdk/client-wisdom/v/3.1083.0).
+[`@aws-sdk/client-wisdom`](https://www.npmjs.com/package/@aws-sdk/client-wisdom/v/3.1084.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-wisdom - [https://cloud-sdk-builds.github.io/?sdk=client-wisdom](https://cloud-sdk-builds.github.io/?sdk=client-wisdom)
-- @aws-sdk/client-wisdom v3.1083.0 - [https://cloud-sdk-builds.github.io/?sdk=client-wisdom&version=3.1083.0](https://cloud-sdk-builds.github.io/?sdk=client-wisdom&version=3.1083.0)
+- @aws-sdk/client-wisdom v3.1084.0 - [https://cloud-sdk-builds.github.io/?sdk=client-wisdom&version=3.1084.0](https://cloud-sdk-builds.github.io/?sdk=client-wisdom&version=3.1084.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1083.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1084.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-SsA8H0r8A6oz27ByCqPPXiXYbQr/0V8D5rbptXSyDFJnFJQlLsQQbngPvMrVzTtz
+sha384-49uWtjrJ3vV6SPEAc6pCtUs/Zg7nvjThCsEo3SNvM/H6pjA1U1SxKLPmw0N5Opl6
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-wisdom": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1083.0/index.min.mjs"
+            "@aws-sdk/client-wisdom": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1084.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1083.0/index.min.mjs": "sha384-SsA8H0r8A6oz27ByCqPPXiXYbQr/0V8D5rbptXSyDFJnFJQlLsQQbngPvMrVzTtz"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1084.0/index.min.mjs": "sha384-49uWtjrJ3vV6SPEAc6pCtUs/Zg7nvjThCsEo3SNvM/H6pjA1U1SxKLPmw0N5Opl6"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-wisdom": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1083.0/index.min.mjs"
+                        "@aws-sdk/client-wisdom": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1084.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1083.0/index.min.mjs": "sha384-SsA8H0r8A6oz27ByCqPPXiXYbQr/0V8D5rbptXSyDFJnFJQlLsQQbngPvMrVzTtz"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wisdom@3.1084.0/index.min.mjs": "sha384-49uWtjrJ3vV6SPEAc6pCtUs/Zg7nvjThCsEo3SNvM/H6pjA1U1SxKLPmw0N5Opl6"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1083.0`)
+* Always pin to a specific version (`@3.1084.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-wisdom/blob/refs/tags/3.1083.0/LICENSE
+https://github.com/cloud-sdk-builds/client-wisdom/blob/refs/tags/3.1084.0/LICENSE
 ```
 
 ---
